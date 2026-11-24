@@ -1,0 +1,38 @@
+1 Run your website using Live Server/open html file
+2 Visit Google Analytics .
+3 Log in with your Google Account
+4 Click Create Account or Create Property.
+5 Choose Web as your platform.
+6 Enter your website URL.
+7 Create your web data stream.
+8 Copy your Measurement ID (G-XXXXXXXXXX).
+
+
+
+-> add this into your code's inside <head> tag
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+(replace g-xxx with relevant measurement id)
+*note: google tag not found bhanxa, ignore becuase were not using a internet live url.*
+
+9 exit outta instructions
+10 click next highlighted below stream 
+11 click "go back to home" 
+12 if properly setup there should show one visit(you).
+
+
+=)
+
+

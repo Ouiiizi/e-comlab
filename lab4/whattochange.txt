@@ -1,0 +1,3 @@
+1. CHANGE CSS(sakdaina bhane remove the css lol OR use chatGPT) 
+2. CHANGE LAYOUT PAGE KO
+3. CHANGE ARRAY STORED IN LAB4.JS

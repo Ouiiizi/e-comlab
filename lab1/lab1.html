@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Category Manager</title>
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+
+    <h1>Ecommerce Store | LAB Q1</h1>
+
+    <section>
+        <h2>Add Category</h2>
+        <input type="text" id="categoryInput" placeholder="Enter category name">
+        <button onclick="addCategory()">Add Category</button>
+
+        <h3>Available Categories</h3>
+        <ul id="categoryList"></ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Add Product</h2>
+
+        <input type="text" id="productName" placeholder="Product name">
+        <input type="number" id="productPrice" placeholder="Product price">
+
+        <select id="productCategory">
+            <option value="">Select Category</option>
+        </select>
+
+        <button onclick="addProduct()">Add Product</button>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Product List</h2>
+        <div id="productList"></div>
+    </section>
+
+    <script src="lab1.js"></script>
+</body>
+</html>

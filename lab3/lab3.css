@@ -1,0 +1,103 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+    color: #333333;
+    padding: 30px;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222222;
+}
+
+/* Sections */
+section {
+    background-color: #FFFFFF;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 25px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+
+/* Product and Cart Layout */
+#productList,
+#cartList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+/* Individual Cards */
+#productList div,
+#cartList div {
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* Text */
+h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 9px 14px;
+    margin: 5px 5px 5px 0;
+    background-color: #2878C8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1D5F9E;
+}
+
+/* Cart Total */
+#cartTotal {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    section {
+        padding: 18px;
+    }
+    #productList,
+    #cartList {
+        grid-template-columns: 1fr;
+    }
+}
